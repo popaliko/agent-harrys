@@ -81,6 +81,25 @@ namespace myTiles {
 ............2...................
 22222222222222222222222222222222
 `, [myTiles.transparency16,sprites.dungeon.doorLockedSouth,sprites.dungeon.hazardLava0,sprites.dungeon.collectibleRedCrystal,sprites.dungeon.darkGroundSouthEast1,sprites.dungeon.floorDark5,sprites.dungeon.darkGroundNorthWest1,sprites.builtin.crowd0,sprites.castle.rock0,sprites.dungeon.chestOpen,sprites.swamp.swampTile0,sprites.dungeon.collectibleBlueCrystal], TileScale.Sixteen);
+            case "level1":
+            case "level1":return tiles.createTilemap(hex`1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`, img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, [myTiles.transparency16], TileScale.Sixteen);
         }
         return null;
     })
